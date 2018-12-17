@@ -1,5 +1,6 @@
 1、执行maven命令：clean install
 2、把mybatis-generator-plus.jar放到目录下，如D:mybatis-generator-plus
 3、把generatorConfig.xml文件和install.cmd文件拷贝到D:mybatis-generator-plus下
+注：如果targetProject配置的为src，则需要在此目录下创建一个名字为src的目录
 4、修改generatorConfig.xml文件中jdbc连接配置，修改install.cmd中的java和maven运行时环境路径
 5、双击执行install.cmd
